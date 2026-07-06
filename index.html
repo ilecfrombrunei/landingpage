@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
   <title>i.lec Enterprise • Digital Wellbeing Companion</title>
-  <!-- Fonts & Icons -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap" rel="stylesheet">
   <script src="https://unpkg.com/lucide@latest"></script>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -74,7 +73,6 @@
     .card-layer-4 {
       background-color: #EFF4FA;
     }
-    /* Updated card style — cleaner without internal buttons/emojis */
     .feature-card {
       transition: all 0.25s ease;
       border: 1px solid rgba(30, 120, 117, 0.08);
@@ -88,7 +86,6 @@
 </head>
 <body class="antialiased text-gray-700 bg-soft-ivory">
 
-  <!-- Navigation -->
   <nav class="sticky top-0 z-30 bg-white/80 backdrop-blur-lg border-b border-white/60 shadow-sm">
     <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
       <div class="flex items-center gap-2">
@@ -97,13 +94,13 @@
       </div>
       <div class="flex gap-4 items-center">
         <a href="#partner" class="hidden md:block text-sm font-medium text-teal-700 hover:text-teal-900">Partner With Us</a>
-        <!-- Explore Platform button now links to demo.html (opens in same tab per standard navigation) -->
+
         <a href="demo.html" class="bg-teal-700 text-white px-5 py-2.5 rounded-full text-sm font-semibold shadow-md hover:bg-teal-800 transition btn-hover">Explore Platform</a>
       </div>
     </div>
   </nav>
 
-  <!-- HERO SECTION -->
+
   <section class="relative max-w-7xl mx-auto px-6 pt-20 pb-20 md:pt-28 md:pb-28 flex flex-col lg:flex-row items-center gap-12">
     <div class="flex-1 space-y-7 text-center lg:text-left">
       <div class="inline-flex items-center bg-teal-50/80 backdrop-blur-sm px-4 py-1.5 rounded-full text-teal-700 text-sm font-medium mb-2">
@@ -116,7 +113,7 @@
         A non-clinical digital companion for reflection, not diagnosis. Designed for students, young professionals, and anyone needing a calm space to process.
       </p>
       <div class="flex flex-wrap gap-4 justify-center lg:justify-start">
-        <!-- Explore Platform (consistent) -->
+    
         <a href="demo.html" class="bg-teal-700 text-white px-7 py-3.5 rounded-full font-semibold shadow-lg btn-hover flex items-center gap-2">Explore Platform <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
         <a href="#partner" class="border border-teal-600 text-teal-700 px-7 py-3.5 rounded-full font-semibold hover:bg-teal-50 transition">Partner With Us</a>
       </div>
@@ -124,7 +121,7 @@
     <div class="flex-1 flex justify-center relative">
       <div class="relative w-72 h-72 md:w-96 md:h-96 flex items-center justify-center">
         <div class="floating-robot bg-gradient-to-br from-teal-100 to-white p-6 rounded-[40px] shadow-2xl glass-card">
-          <div class="text-8xl flex justify-center"><img src="asset/mascot.png" alt="Logo"></div>
+          <div class="text-8xl flex justify-center"><img src="asset/mascot.png"></div>
           <p class="text-center text-teal-800 font-medium mt-2 text-sm">i.lec companion</p>
         </div>
         <div class="absolute -bottom-6 -right-4 bg-white p-3 rounded-2xl shadow-xl w-40 h-64 glass-card hidden md:block">
@@ -139,7 +136,7 @@
     </div>
   </section>
 
-  <!-- CREDIBILITY / TRUST STRIP (SDG 3 and Wawasan 2035 only) -->
+
   <section class="max-w-7xl mx-auto px-6 pb-16">
     <div class="grid grid-cols-2 md:grid-cols-2 gap-6 text-center max-w-2xl mx-auto">
       <div class="bg-white/70 backdrop-blur-sm p-5 rounded-2xl soft-shadow">
@@ -155,7 +152,7 @@
     </div>
   </section>
 
-  <!-- NARRATIVE: Gap & Solution -->
+
   <section class="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-12 items-center">
     <div>
       <span class="text-teal-700 font-semibold text-sm">The emotional support gap</span>
@@ -168,21 +165,20 @@
     </div>
   </section>
 
-  <!-- PRODUCT SHOWCASE: 4 CARDS (Chat + Call + Check-In + Library) -->
-  <!-- UPDATED: removed all button-like elements and emojis (keeping pure typography & icons from lucide only) -->
+
   <section id="explore" class="max-w-7xl mx-auto px-6 py-16">
     <h2 class="text-4xl font-display font-bold text-center text-gray-800 mb-12">A digital space designed for emotional clarity</h2>
     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-      <!-- Card 1: Emotional Chat Companion - no emoji, no button, only lucide icon + text -->
+    
       <div class="feature-card bg-white/80 backdrop-blur-sm p-7 rounded-3xl soft-shadow text-center transition-all">
         <div class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i data-lucide="message-circle" class="w-8 h-8 text-teal-700"></i>
         </div>
         <h3 class="font-display font-semibold text-xl text-teal-800">Emotional Chat Companion</h3>
         <p class="text-gray-600 text-sm mt-2 leading-relaxed">Talk freely via text. No diagnosis, just reflection and gentle listening.</p>
-        <!-- Preview removed — no button or interactive element inside card -->
+    
       </div>
-      <!-- Card 2: Emotional Call Companion -->
+   
       <div class="feature-card bg-white/80 backdrop-blur-sm p-7 rounded-3xl soft-shadow text-center transition-all">
         <div class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i data-lucide="phone-call" class="w-8 h-8 text-teal-700"></i>
@@ -190,7 +186,7 @@
         <h3 class="font-display font-semibold text-xl text-teal-800">Emotional Call Companion</h3>
         <p class="text-gray-600 text-sm mt-2 leading-relaxed">Voice-based support for those who find comfort in conversation, not typing.</p>
       </div>
-      <!-- Card 3: Emotional Check-In -->
+     
       <div class="feature-card bg-white/80 backdrop-blur-sm p-7 rounded-3xl soft-shadow text-center transition-all">
         <div class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i data-lucide="activity" class="w-8 h-8 text-teal-700"></i>
@@ -198,7 +194,7 @@
         <h3 class="font-display font-semibold text-xl text-teal-800">Emotional Check-In</h3>
         <p class="text-gray-600 text-sm mt-2 leading-relaxed">Nonclinical assessment to check stress levels & emotional tone without pressure.</p>
       </div>
-      <!-- Card 4: Digital Resource Library -->
+
       <div class="feature-card bg-white/80 backdrop-blur-sm p-7 rounded-3xl soft-shadow text-center transition-all">
         <div class="w-16 h-16 bg-teal-100 rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i data-lucide="book-open" class="w-8 h-8 text-teal-700"></i>
@@ -209,7 +205,6 @@
     </div>
   </section>
 
-  <!-- COMPARISON SECTION (unchanged) -->
   <section class="max-w-7xl mx-auto px-6 py-16">
     <h2 class="text-3xl font-display font-bold text-center mb-10">How i.lec is different</h2>
     <div class="grid md:grid-cols-4 gap-6 text-sm">
@@ -248,7 +243,6 @@
     </div>
   </section>
 
-  <!-- PARTNER SECTION -->
   <section id="partner" class="max-w-7xl mx-auto px-6 py-16 bg-white/40 rounded-3xl my-12">
     <h2 class="text-3xl font-display font-bold text-center">Collaboration Opportunities</h2>
     <div class="grid md:grid-cols-3 gap-8 mt-12 text-center">
@@ -261,7 +255,6 @@
     </div>
   </section>
 
-  <!-- FOUNDER STORY -->
   <section class="max-w-4xl mx-auto px-6 py-16 text-center">
     <div class="glass-card p-8 rounded-3xl">
       <p class="text-teal-700 italic text-lg">“I built i.lec because I had too much in my head and nowhere to put it. I wanted a space that felt human, safe, and culturally grounded.”</p>
@@ -269,17 +262,15 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
   <footer class="bg-white/60 border-t border-teal-100 mt-12">
     <div class="max-w-7xl mx-auto px-6 py-12 text-center">
       <p class="text-2xl font-display font-bold text-teal-800">Shaping the future of emotional wellbeing in ASEAN</p>
       <p class="text-gray-500 mt-3">Privacy-first • Non-clinical • Human-centered</p>
-      <div class="mt-8 text-sm text-gray-500">© 2025 i.lec Enterprise. All rights reserved.</div>
+      <div class="mt-8 text-sm text-gray-500">© 2026 i.lec Enterprise. All rights reserved.</div>
     </div>
   </footer>
 
   <script>
-    // Reinitialize lucide icons to ensure all icons (including new ones in cards) render properly
     lucide.createIcons();
   </script>
 </body>
